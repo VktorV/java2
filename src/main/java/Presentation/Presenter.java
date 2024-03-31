@@ -70,7 +70,9 @@ public class Presenter<T extends Model> {
                 break;
             }
         }
-        log.writeFile(txt, "Logging\\Saving.txt");
+
+        log.writeFile(txt, "C:\\Users\\SIN\\IdeaProjects\\untitled2\\src\\main\\java\\Loggining\\Saving");
+
     }
 
 }

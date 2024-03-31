@@ -18,11 +18,13 @@ public class UI {
      * @return - номер операции
      */
     public int getChoice() {
-        System.out.println("Choice operation:");
-        System.out.println("\t1. Summarize");
-        System.out.println("\t2. Subtract");
-        System.out.println("\t3. Multiply");
-        System.out.println("\t4. Divide");
+
+        System.out.println("Выбрать операцию:");
+        System.out.println("\t1. Сложить");
+        System.out.println("\t2. Вычесть");
+        System.out.println("\t3. Умножить");
+        System.out.println("\t4. Разделить");
+
         return in.nextInt();
     }
 }
